@@ -4,7 +4,7 @@ This repository provides both Jupyter Notebook and Docker container setups to ex
 
 ## Google Colab
 
-Execute the provided notebook in Google Colab for a hassle-free experience.
+Execute the provided notebook in Google Colab for a hassle-free experience.  
 notebooks/chatWithVideoData.ipynb
 
 ## Local Docker Container
