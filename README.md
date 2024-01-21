@@ -1,6 +1,6 @@
 # Langchain to Build LLM Application
 
-This repository provides a standalone Jupyter Notebook with all the required dependencies to build an LLM application using Langchain. To get started, follow the steps below:
+This repository provides a standalone Jupyter Notebook with all the required dependencies to build an LLM application using Langchain. To get started, clone the repository into your local and follow steps below.
 
 ## Notebook
 - `notebooks/chatWithVideoData.ipynb`
