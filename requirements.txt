@@ -1,3 +1,15 @@
 numpy
 pandas
-matplotlib
+matplotlib 
+yt_dlp 
+openai 
+pydub 
+pypdf 
+python-dotenv
+reportlab
+langchain
+langchain_openai
+langchain[docarray]
+chromadb
+docarray
+pydantic==1.10.13

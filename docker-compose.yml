@@ -13,4 +13,5 @@ services:
       - JUPYTER_ENABLE_LAB=yes
       - NB_UID=1000
       - NB_GID=100
-    container_name: my_jupyter
+      - OPENAI_API_KEY=YOUR_API_KEY
+    container_name: llm_notebook

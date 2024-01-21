@@ -2,7 +2,8 @@ FROM jupyter/base-notebook:latest
 
 USER root
 
-RUN apt-get update && apt-get install -y ffmpeg
+RUN apt-get update && \
+    apt-get install -y ffmpeg build-essential
 
 USER $NB_UID
 
@@ -13,4 +14,6 @@ WORKDIR /home/jovyan/work
 COPY requirements.txt /home/jovyan/work/
 
 # Install Python libraries from the requirements file
+RUN pip install --upgrade pip setuptools
+RUN pip uninstall -y pydantic
 RUN pip install --no-cache-dir -r requirements.txt
